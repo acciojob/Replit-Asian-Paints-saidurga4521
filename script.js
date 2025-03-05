@@ -1,8 +1,8 @@
 //your JS code here. If required.
-const blockId=document.getElementById('block-id');
+const blockId=document.getElementById('block_id');
 const color=document.getElementById('colour-id');
 const changeColor=document.getElementById('change-button');
-const reset=document.getElementById('Reset');
+const reset=document.getElementById('reset_button');
 changeColor.addEventListener('click',()=>{
 	var gridItem=document.querySelectorAll('.grid-item');
 	gridItem.forEach((item)=>{

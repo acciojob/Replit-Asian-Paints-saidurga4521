@@ -6,7 +6,7 @@
 	margin-top:20px;
 	
 }
-#block-id{
+#block_id{
 	width:40%;
 	min-width:20%;
 	padding:8px;
@@ -51,7 +51,7 @@
 	border:none;
 	cursor:pointer;
 }
-#Reset{
+#reset_button{
 	background-color:blueviolet;
 	color:white;
 	border:none;
