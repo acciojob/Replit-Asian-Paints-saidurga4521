@@ -12,13 +12,13 @@
 	padding:8px;
 	outline:none;
 }
-#colour-id{
+#colour_id{
 	width:40%;
 	min-width:20%;
 	padding:8px;
 	outline:none;
 }
-#grid-container{
+.grid-container{
 	width:180px;
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
