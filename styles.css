@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	margin-top:20px;
+	
+}
+#block-id{
+	width:40%;
+	min-width:20%;
+	padding:8px;
+	outline:none;
+}
+#colour-id{
+	width:40%;
+	min-width:20%;
+	padding:8px;
+	outline:none;
+}
+#grid-container{
+	width:180px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	row-gap:5px;
+	column-gap:5px;
+	
+	
+}
+.grid-item{
+	background-color:transparent;
+	border:2px solid gray;
+	width:50px;
+	height:50px;
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center
+}
+.btn-class{
+	width:40%;
+	margin-top:20px;
+	display:flex;
+	justify-content:space-between
+}
+#change-button{
+	background-color:tomato;
+	color:white;
+	padding:8px 12px;
+	border:none;
+	cursor:pointer;
+}
+#Reset{
+	background-color:blueviolet;
+	color:white;
+	border:none;
+	padding:8px 12px;
+	cursor:pointer;
+}
